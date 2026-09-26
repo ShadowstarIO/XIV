@@ -21,6 +21,7 @@ jobs:
           urls = [
             "https://raw.githubusercontent.com/ShadowstarIO/LightsOn/main/repo.json",
             "https://raw.githubusercontent.com/ShadowstarIO/StatusShift/main/repo.json",
+            "https://raw.githubusercontent.com/ShadowstarIO/AndThen/main/repo.json",
           ]
           out = []
           seen = set()
@@ -34,6 +35,9 @@ jobs:
                   if not name or name in seen:
                       continue
                   seen.add(name)
+                  # Stay on the testing channel until the install version catches up.
+                  if name == "AndThen" and entry.get("TestingAssemblyVersion") != entry.get("AssemblyVersion"):
+                      entry["IsTestingExclusive"] = True
                   out.append(entry)
           out.sort(key=lambda e: (e.get("Name") or "").lower())
           open("repo.json", "w", encoding="utf-8").write(json.dumps(out, indent=2) + "\n")

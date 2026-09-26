@@ -1,6 +1,37 @@
 [
   {
     "Author": "Xoza",
+    "Name": "AndThen",
+    "Punchline": "When conditions match, apply settings and run commands.",
+    "Description": "Folders of rules. AND, OR, and NOT chips. When a rule becomes true it sets game options, online status, slash commands, and Penumbra mod settings. Rules do not revert \u2014 write another rule for the other state.",
+    "InternalName": "AndThen",
+    "AssemblyVersion": "0.0.1.0",
+    "TestingAssemblyVersion": "0.0.1.6",
+    "RepoUrl": "https://github.com/ShadowstarIO/AndThen",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "TestingDalamudApiLevel": 15,
+    "IsHide": false,
+    "IsTestingExclusive": true,
+    "DownloadCount": 0,
+    "LastUpdate": 1790445679,
+    "LoadPriority": 0,
+    "IconUrl": "https://raw.githubusercontent.com/ShadowstarIO/AndThen/main/images/icon.png",
+    "DownloadLinkInstall": "https://github.com/ShadowstarIO/AndThen/releases/download/v0.0.1.0/AndThen.zip",
+    "DownloadLinkUpdate": "https://github.com/ShadowstarIO/AndThen/releases/download/v0.0.1.0/AndThen.zip",
+    "DownloadLinkTesting": "https://github.com/ShadowstarIO/AndThen/releases/download/v0.0.1.6/AndThen.zip",
+    "Tags": [
+      "settings",
+      "commands",
+      "conditions",
+      "hud",
+      "fps",
+      "graphics",
+      "penumbra"
+    ]
+  },
+  {
+    "Author": "Xoza",
     "Name": "LightsOn",
     "Punchline": "Tired of posted hours and an empty room? See where the lanterns are lit.",
     "Description": "Occupancy for listed venues and short outdoor scenes. Reports are lanterns lit or wrapped up early, never names or counts. Optional log-book notes while the lanterns are lit.",
