@@ -22,12 +22,18 @@ jobs:
             "https://raw.githubusercontent.com/ShadowstarIO/LightsOn/main/repo.json",
             "https://raw.githubusercontent.com/ShadowstarIO/StatusShift/main/repo.json",
             "https://raw.githubusercontent.com/ShadowstarIO/AndThen/main/repo.json",
+            "https://raw.githubusercontent.com/ShadowstarIO/Starflow/main/repo.json",
           ]
           out = []
           seen = set()
           for url in urls:
-              with urllib.request.urlopen(url) as r:
-                  data = json.load(r)
+              try:
+                  with urllib.request.urlopen(url) as r:
+                      data = json.load(r)
+              except Exception as e:
+                  # A private or missing repo should not hold back the others.
+                  print(f"skipped {url}: {e}")
+                  continue
               if isinstance(data, dict):
                   data = [data]
               for entry in data:
@@ -36,7 +42,7 @@ jobs:
                       continue
                   seen.add(name)
                   # Stay on the testing channel until the install version catches up.
-                  if name == "AndThen" and entry.get("TestingAssemblyVersion") != entry.get("AssemblyVersion"):
+                  if name in ("AndThen", "Starflow") and entry.get("TestingAssemblyVersion") != entry.get("AssemblyVersion"):
                       entry["IsTestingExclusive"] = True
                   out.append(entry)
           out.sort(key=lambda e: (e.get("Name") or "").lower())
