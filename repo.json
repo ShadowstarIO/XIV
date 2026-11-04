@@ -62,7 +62,7 @@
     "Author": "Shadowstar",
     "Name": "Starflow",
     "Punchline": "Read the stars, set your course. When the realm changes, your setup follows.",
-    "Description": "A graph of When, Do, Until, and After cards that reacts to what is going on around you. Conditions read zone, duty, housing address, party size, job, schedule, weather, mount, HP and effects, enmity, chat messages, and loaded plugins. Actions write game settings, run commands, set the search comment and online status, switch plugin collections, apply Glamourer designs, change Penumbra mods, post to webhooks, and travel with Lifestream. Slotted actions put back what they replaced when the flow stops. Starflow never uses combat actions for you.",
+    "Description": "Conditional setups that follow you around Eorzea. Switch game settings, commands, online status, Glamourer designs, Penumbra mods, plugin collections, and Lifestream travel by zone, duty, housing, party, job, schedule, weather, or chat.",
     "InternalName": "Starflow",
     "AssemblyVersion": "0.0.1.0",
     "TestingAssemblyVersion": "0.0.1.0",
@@ -82,12 +82,16 @@
     "Tags": [
       "starflow",
       "flow",
+      "triggers",
       "conditions",
+      "profiles",
       "settings",
       "commands",
-      "penumbra",
       "glamourer",
-      "lifestream"
+      "penumbra",
+      "lifestream",
+      "housing",
+      "status"
     ]
   },
   {
