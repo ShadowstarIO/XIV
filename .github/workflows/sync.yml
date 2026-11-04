@@ -24,6 +24,8 @@ jobs:
             "https://raw.githubusercontent.com/ShadowstarIO/AndThen/main/repo.json",
             "https://raw.githubusercontent.com/ShadowstarIO/Starflow/main/repo.json",
           ]
+          # Entries already listed, kept when their source can't be reached.
+          current = {e.get("InternalName"): e for e in json.load(open("repo.json", encoding="utf-8"))}
           out = []
           seen = set()
           for url in urls:
@@ -31,9 +33,10 @@ jobs:
                   with urllib.request.urlopen(url) as r:
                       data = json.load(r)
               except Exception as e:
-                  # A private or missing repo should not hold back the others.
-                  print(f"skipped {url}: {e}")
-                  continue
+                  # A private or missing repo keeps its current listing and does not hold back the others.
+                  print(f"kept current entry for {url}: {e}")
+                  name = url.split("/")[4]
+                  data = [current[name]] if name in current else []
               if isinstance(data, dict):
                   data = [data]
               for entry in data:

@@ -59,6 +59,38 @@
     ]
   },
   {
+    "Author": "Shadowstar",
+    "Name": "Starflow",
+    "Punchline": "Read the stars, set your course. When the realm changes, your setup follows.",
+    "Description": "A graph of When, Do, Until, and After cards that reacts to what is going on around you. Conditions read zone, duty, housing address, party size, job, schedule, weather, mount, HP and effects, enmity, chat messages, and loaded plugins. Actions write game settings, run commands, set the search comment and online status, switch plugin collections, apply Glamourer designs, change Penumbra mods, post to webhooks, and travel with Lifestream. Slotted actions put back what they replaced when the flow stops. Starflow never uses combat actions for you.",
+    "InternalName": "Starflow",
+    "AssemblyVersion": "0.0.1.0",
+    "TestingAssemblyVersion": "0.0.1.0",
+    "RepoUrl": "https://github.com/ShadowstarIO/Starflow",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "TestingDalamudApiLevel": 15,
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "DownloadCount": 0,
+    "LastUpdate": 0,
+    "LoadPriority": 0,
+    "IconUrl": "https://raw.githubusercontent.com/ShadowstarIO/Starflow/main/images/icon.png",
+    "DownloadLinkInstall": "https://github.com/ShadowstarIO/Starflow/releases/download/v0.0.1.0/Starflow.zip",
+    "DownloadLinkUpdate": "https://github.com/ShadowstarIO/Starflow/releases/download/v0.0.1.0/Starflow.zip",
+    "DownloadLinkTesting": "https://github.com/ShadowstarIO/Starflow/releases/download/v0.0.1.0/Starflow.zip",
+    "Tags": [
+      "starflow",
+      "flow",
+      "conditions",
+      "settings",
+      "commands",
+      "penumbra",
+      "glamourer",
+      "lifestream"
+    ]
+  },
+  {
     "Author": "Xoza",
     "Name": "StatusShift",
     "Punchline": "Shift search comment and online status by zone, activity, and schedule.",
