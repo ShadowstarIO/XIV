@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Shadowstar: a star half in shadow, the mark for the plugin catalog. -->
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#F6CF6E" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#F6CF6E" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="lit">
+      <rect x="0" y="0" width="256" height="512"/>
+    </clipPath>
+  </defs>
+  <rect x="6" y="6" width="500" height="500" rx="112" fill="#1C1C1E"/>
+  <circle cx="256" cy="256" r="170" fill="url(#glow)"/>
+
+  <!-- Shadow half -->
+  <path d="M256 88 C266 200 312 246 424 256 C312 266 266 312 256 424 C246 312 200 266 88 256 C200 246 246 200 256 88 Z" fill="#3A3F52"/>
+  <!-- Lit half -->
+  <path clip-path="url(#lit)" d="M256 88 C266 200 312 246 424 256 C312 266 266 312 256 424 C246 312 200 266 88 256 C200 246 246 200 256 88 Z" fill="#F6CF6E"/>
+  <path clip-path="url(#lit)" d="M256 160 C261 222 290 251 352 256 C290 261 261 290 256 352 C251 290 222 261 160 256 C222 251 251 222 256 160 Z" fill="#FFF4D2"/>
+
+  <!-- Small companion stars -->
+  <path d="M392 120 C394 136 400 142 416 144 C400 146 394 152 392 168 C390 152 384 146 368 144 C384 142 390 136 392 120 Z" fill="#2BB3B0"/>
+  <circle cx="132" cy="388" r="7" fill="#2BB3B0"/>
+</svg>

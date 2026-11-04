@@ -1,4 +1,34 @@
-# XIV
+<p align="center">
+  <img src="images/icon.png" width="160" alt="Shadowstar mark: a four-point star, half gold and half in shadow" />
+</p>
+
+<h1 align="center">Shadowstar XIV</h1>
+
+<p align="center">
+  <img alt="Dalamud plugins: 3" src="https://img.shields.io/badge/Dalamud-3%20plugins-4a6fd8?style=flat-square">
+  <img alt="Umbra plugins: 2" src="https://img.shields.io/badge/Umbra-2%20plugins-2bb3b0?style=flat-square">
+  <a href="https://github.com/ShadowstarIO/xiv/actions/workflows/sync.yml"><img alt="Catalog sync" src="https://img.shields.io/github/actions/workflow/status/ShadowstarIO/xiv/sync.yml?style=flat-square&label=catalog%20sync"></a>
+</p>
+
+<p align="center">
+  <em>FFXIV plugins by Shadowstar, in one catalog.</em>
+</p>
+
+<p align="center">
+  <a href="https://github.com/ShadowstarIO/AndThen"><img src="https://raw.githubusercontent.com/ShadowstarIO/AndThen/main/images/icon.png" width="64" alt="AndThen"></a>&nbsp;
+  <a href="https://github.com/ShadowstarIO/LightsOn"><img src="https://raw.githubusercontent.com/ShadowstarIO/LightsOn/main/images/icon.png" width="64" alt="LightsOn"></a>&nbsp;
+  <a href="https://github.com/ShadowstarIO/StatusShift"><img src="https://raw.githubusercontent.com/ShadowstarIO/StatusShift/main/images/icon.png" width="64" alt="StatusShift"></a>&nbsp;
+  <a href="https://github.com/ShadowstarIO/Umbra.Candybars"><img src="https://raw.githubusercontent.com/ShadowstarIO/Umbra.Candybars/main/images/icon.png" width="64" alt="Candybars"></a>&nbsp;
+  <a href="https://github.com/ShadowstarIO/Umbra.Horizon"><img src="https://raw.githubusercontent.com/ShadowstarIO/Umbra.Horizon/main/images/icon.png" width="64" alt="Horizon"></a>
+</p>
+
+<p align="center">
+  <a href="#dalamud"><b>Dalamud plugins</b></a> ·
+  <a href="#umbra">Umbra plugins</a> ·
+  <a href="https://shadowstar.io">shadowstar.io</a>
+</p>
+
+---
 
 Plugin list for [Shadowstar](https://shadowstar.io) FFXIV plugins. Dalamud plugins install from `repo.json`. Umbra plugins install from their own GitHub releases. Source stays in each plugin repo.
 
