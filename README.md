@@ -18,7 +18,7 @@
   <a href="https://github.com/ShadowstarIO/AndThen"><img src="https://raw.githubusercontent.com/ShadowstarIO/AndThen/main/images/icon.png" width="64" alt="AndThen"></a>&nbsp;
   <a href="https://github.com/ShadowstarIO/LightsOn"><img src="https://raw.githubusercontent.com/ShadowstarIO/LightsOn/main/images/icon.png" width="64" alt="LightsOn"></a>&nbsp;
   <a href="https://github.com/ShadowstarIO/StatusShift"><img src="https://raw.githubusercontent.com/ShadowstarIO/StatusShift/main/images/icon.png" width="64" alt="StatusShift"></a>&nbsp;
-  <a href="https://github.com/ShadowstarIO/Starflow"><img src="https://raw.githubusercontent.com/ShadowstarIO/Starflow/main/images/icon.png" width="64" alt="Starflow"></a>&nbsp;
+  <a href="https://github.com/ShadowstarIO/Starflow"><img src="https://raw.githubusercontent.com/ShadowstarIO/Starflow/star/images/icon.png" width="64" alt="Starflow"></a>&nbsp;
   <a href="https://github.com/ShadowstarIO/Umbra.Candybars"><img src="https://raw.githubusercontent.com/ShadowstarIO/Umbra.Candybars/main/images/icon.png" width="64" alt="Candybars"></a>&nbsp;
   <a href="https://github.com/ShadowstarIO/Umbra.Horizon"><img src="https://raw.githubusercontent.com/ShadowstarIO/Umbra.Horizon/main/images/icon.png" width="64" alt="Horizon"></a>
 </p>

@@ -75,7 +75,7 @@
     "DownloadCount": 0,
     "LastUpdate": 0,
     "LoadPriority": 0,
-    "IconUrl": "https://raw.githubusercontent.com/ShadowstarIO/Starflow/main/images/icon.png",
+    "IconUrl": "https://raw.githubusercontent.com/ShadowstarIO/Starflow/star/images/icon.png",
     "DownloadLinkInstall": "https://github.com/ShadowstarIO/Starflow/releases/download/v0.0.1.0/Starflow.zip",
     "DownloadLinkUpdate": "https://github.com/ShadowstarIO/Starflow/releases/download/v0.0.1.0/Starflow.zip",
     "DownloadLinkTesting": "https://github.com/ShadowstarIO/Starflow/releases/download/v0.0.1.0/Starflow.zip",

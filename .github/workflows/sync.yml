@@ -22,7 +22,7 @@ jobs:
             "https://raw.githubusercontent.com/ShadowstarIO/LightsOn/main/repo.json",
             "https://raw.githubusercontent.com/ShadowstarIO/StatusShift/main/repo.json",
             "https://raw.githubusercontent.com/ShadowstarIO/AndThen/main/repo.json",
-            "https://raw.githubusercontent.com/ShadowstarIO/Starflow/main/repo.json",
+            "https://raw.githubusercontent.com/ShadowstarIO/Starflow/star/repo.json",
           ]
           # Entries already listed, kept when their source can't be reached.
           current = {e.get("InternalName"): e for e in json.load(open("repo.json", encoding="utf-8"))}
