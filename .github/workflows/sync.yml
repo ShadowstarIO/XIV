@@ -20,8 +20,6 @@ jobs:
           import json, urllib.request
           urls = [
             "https://raw.githubusercontent.com/ShadowstarIO/LightsOn/main/repo.json",
-            "https://raw.githubusercontent.com/ShadowstarIO/StatusShift/main/repo.json",
-            "https://raw.githubusercontent.com/ShadowstarIO/AndThen/main/repo.json",
             "https://raw.githubusercontent.com/ShadowstarIO/Starflow/star/repo.json",
           ]
           # Entries already listed, kept when their source can't be reached.
@@ -45,7 +43,7 @@ jobs:
                       continue
                   seen.add(name)
                   # Stay on the testing channel until the install version catches up.
-                  if name in ("AndThen", "Starflow") and entry.get("TestingAssemblyVersion") != entry.get("AssemblyVersion"):
+                  if name == "Starflow" and entry.get("TestingAssemblyVersion") != entry.get("AssemblyVersion"):
                       entry["IsTestingExclusive"] = True
                   out.append(entry)
           out.sort(key=lambda e: (e.get("Name") or "").lower())
